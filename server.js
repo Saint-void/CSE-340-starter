@@ -15,7 +15,7 @@ const expressLayouts = require("express-ejs-layouts")
  * Routes
  *************************/
 app.use(static)
-
+app.use(express.static("public"))
 
 /* ***********************
  * View Engine and Templates
