@@ -145,3 +145,20 @@ float:left;
   cursor: pointer;
 }
 
+.vehicle-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.vehicle-detail img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .vehicle-detail {
+    grid-template-columns: 1fr;
+  }
+}
